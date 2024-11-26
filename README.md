@@ -46,9 +46,9 @@ The project followed a structured workflow to ensure accuracy and efficiency:
 * **[Customer Purchase type](SQL/revenue_ananlysis2.sql)**: Calculates the average ticket price based on payment methods.
 
 #### Ticket Sales Analysis
-* **[Ticket Sales ](SQL/revenue_ananlysis2.sql)**:  Total volume OF Ticket Sold by Purchase Type.
-* **[Ticket Sales ](SQL/revenue_ananlysis2.sql)** Ticket prices variation by hour of purchase .
-* **[Ticket Sales ](SQL/revenue_ananlysis2.sql)**:Average ticket price by payment method.
+* **[Ticket Sales ](SQL/ticket_analysis.sql)**:  Total volume OF Ticket Sold by Purchase Type.
+* **[Ticket Sales ](SQL/ticket_analysis.sql)** Ticket prices variation by hour of purchase .
+* **[Ticket Sales ](SQL/ticket_analysis.sqll)**:Average ticket price by payment method.
 
 
 
