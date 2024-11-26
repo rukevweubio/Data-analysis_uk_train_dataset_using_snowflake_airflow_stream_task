@@ -14,3 +14,10 @@ and evolving customer preferences. These challenges directly impact customer sat
 3. Enhance revenue generation by identifying profitable routes and payment trends.
 4. Understand customer behavior to improve ticketing services and customer experience.
 5. Optimize route and schedule planning to match demand patterns
+
+#### Project Objectives
+The primary goals of this project are as follows:
+1. Assess the timeliness of train journeys and identify common delay causes.
+2. Analyze revenue trends by ticket type, routes, and payment methods.
+3. Understand customer preferences for ticket purchases, payment channels, and journey types.
+4. Provide actionable recommendations to improve operational performance and customer satisfaction.
