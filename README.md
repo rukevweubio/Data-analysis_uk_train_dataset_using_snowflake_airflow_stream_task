@@ -16,9 +16,25 @@ This project utilizes a data engineer pipeline to manage and analyze the UK trai
 
 ### Tools used
 Snowflake:
-Snowflake was the primary tool for building the data analysis pipeline, including data ingestion, transformation, and aggregation.
+Snowflake was the primary tool for building the data  pipeline, including data ingestion, transformation, and aggregation.
 What it was used for:
 1. SnowSQL: Used to load the dataset into Snowflake and execute SQL queries for data manipulation and exploration.
 2. Tasks and Streams: Automated data processing by scheduling tasks and capturing changes to datasets in near-real-time.
 3. Stored Procedures: Implemented to execute complex transformations and aggregations, simplifying data workflows.
 4. snowflake dashboard:Implemented  visualiztion
+5. 
+#### Project Workflow
+The project followed a structured workflow to ensure accuracy and efficiency:
+
+1.  Data Loading: The dataset was ingested into Snowflake using SnowSQL, ensuring data integrity and accessibility.
+2.  Data Pipeline Creation :Streams captured incremental data changes for real-time updates.
+3.  Tasks automated the execution of transformations at scheduled intervals.
+4. Stored Procedures  Stored Procedures handled complex calculations such as revenue aggregation by route and customer segmentation.
+5.  Data Transformation:Transformations were performed directly in Snowflake to calculate KPIs such as
+   * What is the average ticket price across different routes or destinations
+   * count the number of trip made by the train from the arrival to destination
+   * price of ticket by date of purchase
+   * On-time performance percentage.
+   * Average delay time per route.
+   * Revenue trends by ticket type and payment method.
+
